@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115ED2351782E6A900AD99B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115ED2341782E6A900AD99B3 /* UIKit.framework */; };
+		115ED2371782E6A900AD99B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115ED2361782E6A900AD99B3 /* Foundation.framework */; };
+		115ED2391782E6A900AD99B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115ED2381782E6A900AD99B3 /* CoreGraphics.framework */; };
+		115ED23F1782E6A900AD99B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 115ED23D1782E6A900AD99B3 /* InfoPlist.strings */; };
+		115ED2411782E6A900AD99B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2401782E6A900AD99B3 /* main.m */; };
+		115ED2451782E6A900AD99B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2441782E6A900AD99B3 /* AppDelegate.m */; };
+		115ED2471782E6AA00AD99B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED2461782E6AA00AD99B3 /* Default.png */; };
+		115ED2491782E6AA00AD99B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED2481782E6AA00AD99B3 /* Default@2x.png */; };
+		115ED24B1782E6AA00AD99B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED24A1782E6AA00AD99B3 /* Default-568h@2x.png */; };
+		115ED24E1782E6AA00AD99B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115ED24C1782E6AA00AD99B3 /* MainStoryboard.storyboard */; };
+		115ED2511782E6AA00AD99B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2501782E6AA00AD99B3 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		115ED2311782E6A900AD99B3 /* Sumati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sumati.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115ED2341782E6A900AD99B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		115ED2361782E6A900AD99B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		115ED2381782E6A900AD99B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		115ED23C1782E6A900AD99B3 /* Sumati-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sumati-Info.plist"; sourceTree = "<group>"; };
+		115ED23E1782E6A900AD99B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		115ED2401782E6A900AD99B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		115ED2421782E6A900AD99B3 /* Sumati-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sumati-Prefix.pch"; sourceTree = "<group>"; };
+		115ED2431782E6A900AD99B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		115ED2441782E6A900AD99B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		115ED2461782E6AA00AD99B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		115ED2481782E6AA00AD99B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		115ED24A1782E6AA00AD99B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		115ED24D1782E6AA00AD99B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		115ED24F1782E6AA00AD99B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		115ED2501782E6AA00AD99B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115ED22E1782E6A900AD99B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115ED2351782E6A900AD99B3 /* UIKit.framework in Frameworks */,
+				115ED2371782E6A900AD99B3 /* Foundation.framework in Frameworks */,
+				115ED2391782E6A900AD99B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115ED2281782E6A900AD99B3 = {
+			isa = PBXGroup;
+			children = (
+				115ED23A1782E6A900AD99B3 /* Sumati */,
+				115ED2331782E6A900AD99B3 /* Frameworks */,
+				115ED2321782E6A900AD99B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115ED2321782E6A900AD99B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115ED2311782E6A900AD99B3 /* Sumati.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115ED2331782E6A900AD99B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				115ED2341782E6A900AD99B3 /* UIKit.framework */,
+				115ED2361782E6A900AD99B3 /* Foundation.framework */,
+				115ED2381782E6A900AD99B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		115ED23A1782E6A900AD99B3 /* Sumati */ = {
+			isa = PBXGroup;
+			children = (
+				115ED2431782E6A900AD99B3 /* AppDelegate.h */,
+				115ED2441782E6A900AD99B3 /* AppDelegate.m */,
+				115ED24C1782E6AA00AD99B3 /* MainStoryboard.storyboard */,
+				115ED24F1782E6AA00AD99B3 /* ViewController.h */,
+				115ED2501782E6AA00AD99B3 /* ViewController.m */,
+				115ED23B1782E6A900AD99B3 /* Supporting Files */,
+			);
+			path = Sumati;
+			sourceTree = "<group>";
+		};
+		115ED23B1782E6A900AD99B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				115ED23C1782E6A900AD99B3 /* Sumati-Info.plist */,
+				115ED23D1782E6A900AD99B3 /* InfoPlist.strings */,
+				115ED2401782E6A900AD99B3 /* main.m */,
+				115ED2421782E6A900AD99B3 /* Sumati-Prefix.pch */,
+				115ED2461782E6AA00AD99B3 /* Default.png */,
+				115ED2481782E6AA00AD99B3 /* Default@2x.png */,
+				115ED24A1782E6AA00AD99B3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115ED2301782E6A900AD99B3 /* Sumati */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115ED2541782E6AA00AD99B3 /* Build configuration list for PBXNativeTarget "Sumati" */;
+			buildPhases = (
+				115ED22D1782E6A900AD99B3 /* Sources */,
+				115ED22E1782E6A900AD99B3 /* Frameworks */,
+				115ED22F1782E6A900AD99B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sumati;
+			productName = Sumati;
+			productReference = 115ED2311782E6A900AD99B3 /* Sumati.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115ED2291782E6A900AD99B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chandrahasan Vantaku";
+			};
+			buildConfigurationList = 115ED22C1782E6A900AD99B3 /* Build configuration list for PBXProject "Sumati" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 115ED2281782E6A900AD99B3;
+			productRefGroup = 115ED2321782E6A900AD99B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115ED2301782E6A900AD99B3 /* Sumati */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115ED22F1782E6A900AD99B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115ED23F1782E6A900AD99B3 /* InfoPlist.strings in Resources */,
+				115ED2471782E6AA00AD99B3 /* Default.png in Resources */,
+				115ED2491782E6AA00AD99B3 /* Default@2x.png in Resources */,
+				115ED24B1782E6AA00AD99B3 /* Default-568h@2x.png in Resources */,
+				115ED24E1782E6AA00AD99B3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115ED22D1782E6A900AD99B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115ED2411782E6A900AD99B3 /* main.m in Sources */,
+				115ED2451782E6A900AD99B3 /* AppDelegate.m in Sources */,
+				115ED2511782E6AA00AD99B3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		115ED23D1782E6A900AD99B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115ED23E1782E6A900AD99B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		115ED24C1782E6AA00AD99B3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115ED24D1782E6AA00AD99B3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115ED2521782E6AA00AD99B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		115ED2531782E6AA00AD99B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115ED2551782E6AA00AD99B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sumati/Sumati-Prefix.pch";
+				INFOPLIST_FILE = "Sumati/Sumati-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		115ED2561782E6AA00AD99B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sumati/Sumati-Prefix.pch";
+				INFOPLIST_FILE = "Sumati/Sumati-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115ED22C1782E6A900AD99B3 /* Build configuration list for PBXProject "Sumati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115ED2521782E6AA00AD99B3 /* Debug */,
+				115ED2531782E6AA00AD99B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115ED2541782E6AA00AD99B3 /* Build configuration list for PBXNativeTarget "Sumati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115ED2551782E6AA00AD99B3 /* Debug */,
+				115ED2561782E6AA00AD99B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115ED2291782E6A900AD99B3 /* Project object */;
+}
