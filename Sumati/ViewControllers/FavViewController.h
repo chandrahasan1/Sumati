@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FavViewController.h
 //  Sumati
 //
 //  Created by Chandrahasan Vantaku on 02/07/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FavViewController : UITableViewController
 
 @end

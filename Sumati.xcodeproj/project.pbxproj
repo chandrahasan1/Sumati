@@ -7,36 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11463A25178C2764004C9213 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11463A24178C2763004C9213 /* DetailViewController.m */; };
+		11463A28178C28E1004C9213 /* PadyaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11463A27178C28E1004C9213 /* PadyaController.m */; };
+		11463A2A178C305A004C9213 /* Ramaneeya.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11463A29178C305A004C9213 /* Ramaneeya.ttf */; };
+		11463A2C178C6F14004C9213 /* SumatiSatakam.sql in Resources */ = {isa = PBXBuildFile; fileRef = 11463A2B178C6F14004C9213 /* SumatiSatakam.sql */; };
 		115ED2351782E6A900AD99B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115ED2341782E6A900AD99B3 /* UIKit.framework */; };
 		115ED2371782E6A900AD99B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115ED2361782E6A900AD99B3 /* Foundation.framework */; };
 		115ED2391782E6A900AD99B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115ED2381782E6A900AD99B3 /* CoreGraphics.framework */; };
-		115ED23F1782E6A900AD99B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 115ED23D1782E6A900AD99B3 /* InfoPlist.strings */; };
-		115ED2411782E6A900AD99B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2401782E6A900AD99B3 /* main.m */; };
-		115ED2451782E6A900AD99B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2441782E6A900AD99B3 /* AppDelegate.m */; };
-		115ED2471782E6AA00AD99B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED2461782E6AA00AD99B3 /* Default.png */; };
-		115ED2491782E6AA00AD99B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED2481782E6AA00AD99B3 /* Default@2x.png */; };
-		115ED24B1782E6AA00AD99B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED24A1782E6AA00AD99B3 /* Default-568h@2x.png */; };
-		115ED24E1782E6AA00AD99B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115ED24C1782E6AA00AD99B3 /* MainStoryboard.storyboard */; };
-		115ED2511782E6AA00AD99B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2501782E6AA00AD99B3 /* ViewController.m */; };
+		115ED2661782E72900AD99B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2591782E72900AD99B3 /* AppDelegate.m */; };
+		115ED2671782E72900AD99B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED25C1782E72900AD99B3 /* Default-568h@2x.png */; };
+		115ED2681782E72900AD99B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED25D1782E72900AD99B3 /* Default.png */; };
+		115ED2691782E72900AD99B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115ED25E1782E72900AD99B3 /* Default@2x.png */; };
+		115ED26A1782E72900AD99B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2601782E72900AD99B3 /* main.m */; };
+		115ED2791782E75D00AD99B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 115ED2751782E75D00AD99B3 /* InfoPlist.strings */; };
+		115ED27A1782E75D00AD99B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115ED2771782E75D00AD99B3 /* MainStoryboard.storyboard */; };
+		115ED27D1782EA4000AD99B3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED27C1782EA4000AD99B3 /* HomeViewController.m */; };
+		115ED2801782EA5500AD99B3 /* FavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED27F1782EA5500AD99B3 /* FavViewController.m */; };
+		115ED2831782EA6300AD99B3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115ED2821782EA6300AD99B3 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11463A23178C2763004C9213 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		11463A24178C2763004C9213 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		11463A26178C28E1004C9213 /* PadyaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadyaController.h; sourceTree = "<group>"; };
+		11463A27178C28E1004C9213 /* PadyaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PadyaController.m; sourceTree = "<group>"; };
+		11463A29178C305A004C9213 /* Ramaneeya.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ramaneeya.ttf; sourceTree = "<group>"; };
+		11463A2B178C6F14004C9213 /* SumatiSatakam.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = SumatiSatakam.sql; sourceTree = "<group>"; };
 		115ED2311782E6A900AD99B3 /* Sumati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sumati.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		115ED2341782E6A900AD99B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		115ED2361782E6A900AD99B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		115ED2381782E6A900AD99B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		115ED23C1782E6A900AD99B3 /* Sumati-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sumati-Info.plist"; sourceTree = "<group>"; };
-		115ED23E1782E6A900AD99B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		115ED2401782E6A900AD99B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		115ED2421782E6A900AD99B3 /* Sumati-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sumati-Prefix.pch"; sourceTree = "<group>"; };
-		115ED2431782E6A900AD99B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		115ED2441782E6A900AD99B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		115ED2461782E6AA00AD99B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		115ED2481782E6AA00AD99B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		115ED24A1782E6AA00AD99B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		115ED24D1782E6AA00AD99B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		115ED24F1782E6AA00AD99B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		115ED2501782E6AA00AD99B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		115ED2581782E72900AD99B3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		115ED2591782E72900AD99B3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		115ED25C1782E72900AD99B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		115ED25D1782E72900AD99B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		115ED25E1782E72900AD99B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		115ED2601782E72900AD99B3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		115ED2611782E72900AD99B3 /* Sumati-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sumati-Info.plist"; sourceTree = "<group>"; };
+		115ED2621782E72900AD99B3 /* Sumati-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sumati-Prefix.pch"; sourceTree = "<group>"; };
+		115ED2761782E75D00AD99B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		115ED2781782E75D00AD99B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		115ED27B1782EA4000AD99B3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		115ED27C1782EA4000AD99B3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		115ED27E1782EA5500AD99B3 /* FavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavViewController.h; sourceTree = "<group>"; };
+		115ED27F1782EA5500AD99B3 /* FavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavViewController.m; sourceTree = "<group>"; };
+		115ED2811782EA6300AD99B3 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		115ED2821782EA6300AD99B3 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,28 +99,86 @@
 		115ED23A1782E6A900AD99B3 /* Sumati */ = {
 			isa = PBXGroup;
 			children = (
-				115ED2431782E6A900AD99B3 /* AppDelegate.h */,
-				115ED2441782E6A900AD99B3 /* AppDelegate.m */,
-				115ED24C1782E6AA00AD99B3 /* MainStoryboard.storyboard */,
-				115ED24F1782E6AA00AD99B3 /* ViewController.h */,
-				115ED2501782E6AA00AD99B3 /* ViewController.m */,
-				115ED23B1782E6A900AD99B3 /* Supporting Files */,
+				115ED2571782E72900AD99B3 /* Application */,
+				115ED2631782E72900AD99B3 /* ViewControllers */,
+				115ED25A1782E72900AD99B3 /* Images */,
+				115ED26D1782E73000AD99B3 /* Storyboard */,
+				115ED25F1782E72900AD99B3 /* SupportingFiles */,
 			);
 			path = Sumati;
 			sourceTree = "<group>";
 		};
-		115ED23B1782E6A900AD99B3 /* Supporting Files */ = {
+		115ED2571782E72900AD99B3 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				115ED23C1782E6A900AD99B3 /* Sumati-Info.plist */,
-				115ED23D1782E6A900AD99B3 /* InfoPlist.strings */,
-				115ED2401782E6A900AD99B3 /* main.m */,
-				115ED2421782E6A900AD99B3 /* Sumati-Prefix.pch */,
-				115ED2461782E6AA00AD99B3 /* Default.png */,
-				115ED2481782E6AA00AD99B3 /* Default@2x.png */,
-				115ED24A1782E6AA00AD99B3 /* Default-568h@2x.png */,
+				115ED2581782E72900AD99B3 /* AppDelegate.h */,
+				115ED2591782E72900AD99B3 /* AppDelegate.m */,
 			);
-			name = "Supporting Files";
+			path = Application;
+			sourceTree = "<group>";
+		};
+		115ED25A1782E72900AD99B3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				115ED25B1782E72900AD99B3 /* App */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		115ED25B1782E72900AD99B3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				115ED25C1782E72900AD99B3 /* Default-568h@2x.png */,
+				115ED25D1782E72900AD99B3 /* Default.png */,
+				115ED25E1782E72900AD99B3 /* Default@2x.png */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		115ED25F1782E72900AD99B3 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11463A2B178C6F14004C9213 /* SumatiSatakam.sql */,
+				11463A29178C305A004C9213 /* Ramaneeya.ttf */,
+				115ED2601782E72900AD99B3 /* main.m */,
+				115ED2611782E72900AD99B3 /* Sumati-Info.plist */,
+				115ED2621782E72900AD99B3 /* Sumati-Prefix.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		115ED2631782E72900AD99B3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				115ED27B1782EA4000AD99B3 /* HomeViewController.h */,
+				115ED27C1782EA4000AD99B3 /* HomeViewController.m */,
+				115ED27E1782EA5500AD99B3 /* FavViewController.h */,
+				115ED27F1782EA5500AD99B3 /* FavViewController.m */,
+				115ED2811782EA6300AD99B3 /* SettingsViewController.h */,
+				115ED2821782EA6300AD99B3 /* SettingsViewController.m */,
+				11463A23178C2763004C9213 /* DetailViewController.h */,
+				11463A24178C2763004C9213 /* DetailViewController.m */,
+				11463A26178C28E1004C9213 /* PadyaController.h */,
+				11463A27178C28E1004C9213 /* PadyaController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		115ED26D1782E73000AD99B3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				115ED2741782E75D00AD99B3 /* en.lproj */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		115ED2741782E75D00AD99B3 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				115ED2751782E75D00AD99B3 /* InfoPlist.strings */,
+				115ED2771782E75D00AD99B3 /* MainStoryboard.storyboard */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +232,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				115ED23F1782E6A900AD99B3 /* InfoPlist.strings in Resources */,
-				115ED2471782E6AA00AD99B3 /* Default.png in Resources */,
-				115ED2491782E6AA00AD99B3 /* Default@2x.png in Resources */,
-				115ED24B1782E6AA00AD99B3 /* Default-568h@2x.png in Resources */,
-				115ED24E1782E6AA00AD99B3 /* MainStoryboard.storyboard in Resources */,
+				115ED2671782E72900AD99B3 /* Default-568h@2x.png in Resources */,
+				115ED2681782E72900AD99B3 /* Default.png in Resources */,
+				115ED2691782E72900AD99B3 /* Default@2x.png in Resources */,
+				115ED2791782E75D00AD99B3 /* InfoPlist.strings in Resources */,
+				115ED27A1782E75D00AD99B3 /* MainStoryboard.storyboard in Resources */,
+				11463A2A178C305A004C9213 /* Ramaneeya.ttf in Resources */,
+				11463A2C178C6F14004C9213 /* SumatiSatakam.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,27 +249,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				115ED2411782E6A900AD99B3 /* main.m in Sources */,
-				115ED2451782E6A900AD99B3 /* AppDelegate.m in Sources */,
-				115ED2511782E6AA00AD99B3 /* ViewController.m in Sources */,
+				115ED2661782E72900AD99B3 /* AppDelegate.m in Sources */,
+				115ED26A1782E72900AD99B3 /* main.m in Sources */,
+				115ED27D1782EA4000AD99B3 /* HomeViewController.m in Sources */,
+				115ED2801782EA5500AD99B3 /* FavViewController.m in Sources */,
+				115ED2831782EA6300AD99B3 /* SettingsViewController.m in Sources */,
+				11463A25178C2764004C9213 /* DetailViewController.m in Sources */,
+				11463A28178C28E1004C9213 /* PadyaController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		115ED23D1782E6A900AD99B3 /* InfoPlist.strings */ = {
+		115ED2751782E75D00AD99B3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				115ED23E1782E6A900AD99B3 /* en */,
+				115ED2761782E75D00AD99B3 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		115ED24C1782E6AA00AD99B3 /* MainStoryboard.storyboard */ = {
+		115ED2771782E75D00AD99B3 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				115ED24D1782E6AA00AD99B3 /* en */,
+				115ED2781782E75D00AD99B3 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -261,8 +341,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sumati/Sumati-Prefix.pch";
-				INFOPLIST_FILE = "Sumati/Sumati-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sumati/SupportingFiles/Sumati-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Sumati/SupportingFiles/Sumati-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,8 +352,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sumati/Sumati-Prefix.pch";
-				INFOPLIST_FILE = "Sumati/Sumati-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sumati/SupportingFiles/Sumati-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Sumati/SupportingFiles/Sumati-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +378,7 @@
 				115ED2561782E6AA00AD99B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

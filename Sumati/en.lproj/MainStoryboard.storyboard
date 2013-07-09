@@ -1,26 +1,225 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ZYq-wu-XVT">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="5">
+        <!--Home View Controller - Home-->
+        <scene sceneID="JRU-qW-xYy">
             <objects>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <tableViewController id="QUX-3D-wNv" customClass="HomeViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lSP-rL-Gvq">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ft.home.tableCells" id="pc0-uo-c9F">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Home" id="ccu-ix-lPU"/>
+                    <connections>
+                        <segue destination="Pdq-uJ-i0Z" kind="push" identifier="ft.home.details" id="Agi-04-U7r"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XDc-cj-q93" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="430" y="-238"/>
+        </scene>
+        <!--Fav View Controller - Favorites-->
+        <scene sceneID="fAs-86-eOe">
+            <objects>
+                <tableViewController id="ZFh-nx-5dJ" customClass="FavViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Vw0-4c-RUK">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ft.fav.tableCells" id="dxd-wW-6EW">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Favorites" id="LX5-8R-goG"/>
+                    <connections>
+                        <segue destination="Pdq-uJ-i0Z" kind="push" identifier="ft.fav.details" id="4WR-xN-V08"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Th7-hG-wrr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="430" y="466"/>
+        </scene>
+        <!--Detail View Controller - Padyam-->
+        <scene sceneID="FwU-I5-Icm">
+            <objects>
+                <viewController id="Pdq-uJ-i0Z" customClass="DetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3W9-X1-8BE">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Auh-S4-QV8">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="i8J-2g-7cE"/>
+                                </constraints>
+                                <string key="text">శ్రీరాముని దయచేతను
+నారూఢిగ సకలజనులు నౌరాఁయనగా
+ధారాళమైన నీతులు
+నోరూరఁగఁ జవులుపుట్ట నుడివెద సుమతీ!</string>
+                                <fontDescription key="fontDescription" name="TeluguSangamMN-Bold" family="Telugu Sangam MN" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Auh-S4-QV8" firstAttribute="top" secondItem="3W9-X1-8BE" secondAttribute="top" type="default" id="E20-hz-q2U"/>
+                            <constraint firstItem="Auh-S4-QV8" firstAttribute="trailing" secondItem="3W9-X1-8BE" secondAttribute="trailing" type="default" id="kc5-5p-1es"/>
+                            <constraint firstItem="Auh-S4-QV8" firstAttribute="leading" secondItem="3W9-X1-8BE" secondAttribute="leading" type="default" id="u8h-Xc-Dcf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Padyam" id="rwh-cR-wju"/>
+                    <connections>
+                        <outlet property="verseTextView" destination="Auh-S4-QV8" id="C1v-dx-liS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2uf-AP-CNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="129"/>
+        </scene>
+        <!--Navigation Controller - Bookmarks-->
+        <scene sceneID="yOg-T9-5aT">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="bnS-tQ-qvw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bookmarks" id="Ofc-F7-ecg"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3se-Kp-KDk">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZFh-nx-5dJ" kind="relationship" relationship="rootViewController" id="WPK-aW-hFD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQ8-SO-ogc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4" y="466"/>
+        </scene>
+        <!--Settings View Controller - Settings-->
+        <scene sceneID="xQw-EJ-NYT">
+            <objects>
+                <tableViewController id="Nuq-pL-ow9" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="DZp-wi-umY">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ft.settings.tableCells" id="3gL-Mt-dzN">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Settings" id="n3c-RA-A7R"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZBv-OZ-1he" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="430" y="1181"/>
+        </scene>
+        <!--Navigation Controller - Settings-->
+        <scene sceneID="SyH-qe-SLE">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="ycy-iJ-aZs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" id="OmA-9f-dfl"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eZA-5J-VWL">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Nuq-pL-ow9" kind="relationship" relationship="rootViewController" id="LuI-1V-DFF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uzM-8T-KuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8" y="1181"/>
+        </scene>
+        <!--Navigation Controller - Home-->
+        <scene sceneID="bgW-Oq-gfK">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="F47-dA-m3F" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="krJ-pH-1QI"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UIT-KL-RXZ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QUX-3D-wNv" kind="relationship" relationship="rootViewController" id="qE4-ob-I5q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="huZ-Gk-H7l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="-238"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0l7-nn-cFd">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="ZYq-wu-XVT" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="n3B-AN-SO0">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="F47-dA-m3F" kind="relationship" relationship="viewControllers" id="NwL-hd-pkz"/>
+                        <segue destination="bnS-tQ-qvw" kind="relationship" relationship="viewControllers" id="7ep-2m-i5T"/>
+                        <segue destination="ycy-iJ-aZs" kind="relationship" relationship="viewControllers" id="xWb-s1-qdR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8T-TL-MJO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-577" y="466"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="verseTextView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="FavViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FavViewController.h"/>
+        </class>
+        <class className="HomeViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SettingsViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingsViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="4WR-xN-V08"/>
+    </inferredMetricsTieBreakers>
 </document>
