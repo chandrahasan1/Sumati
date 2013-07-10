@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FavViewController : UITableViewController
-
+{
+    NSMutableArray *mFavPadyaArray;
+}
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1117D0CE178DB6D90085CCFD /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117D0CD178DB6D90085CCFD /* DBManager.m */; };
+		1117D0D0178DB9610085CCFD /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1117D0CF178DB9610085CCFD /* libsqlite3.0.dylib */; };
+		1117D0D4178DBB430085CCFD /* Padyam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117D0D3178DBB430085CCFD /* Padyam.m */; };
 		11463A25178C2764004C9213 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11463A24178C2763004C9213 /* DetailViewController.m */; };
 		11463A28178C28E1004C9213 /* PadyaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11463A27178C28E1004C9213 /* PadyaController.m */; };
 		11463A2A178C305A004C9213 /* Ramaneeya.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11463A29178C305A004C9213 /* Ramaneeya.ttf */; };
@@ -27,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1117D0CC178DB6D90085CCFD /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		1117D0CD178DB6D90085CCFD /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		1117D0CF178DB9610085CCFD /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		1117D0D2178DBB430085CCFD /* Padyam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Padyam.h; sourceTree = "<group>"; };
+		1117D0D3178DBB430085CCFD /* Padyam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Padyam.m; sourceTree = "<group>"; };
 		11463A23178C2763004C9213 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		11463A24178C2763004C9213 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		11463A26178C28E1004C9213 /* PadyaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadyaController.h; sourceTree = "<group>"; };
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1117D0D0178DB9610085CCFD /* libsqlite3.0.dylib in Frameworks */,
 				115ED2351782E6A900AD99B3 /* UIKit.framework in Frameworks */,
 				115ED2371782E6A900AD99B3 /* Foundation.framework in Frameworks */,
 				115ED2391782E6A900AD99B3 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +78,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1117D0CB178DB6C60085CCFD /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				1117D0CC178DB6D90085CCFD /* DBManager.h */,
+				1117D0CD178DB6D90085CCFD /* DBManager.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		1117D0D1178DBB330085CCFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1117D0D2178DBB430085CCFD /* Padyam.h */,
+				1117D0D3178DBB430085CCFD /* Padyam.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		115ED2281782E6A900AD99B3 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +116,7 @@
 		115ED2331782E6A900AD99B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1117D0CF178DB9610085CCFD /* libsqlite3.0.dylib */,
 				115ED2341782E6A900AD99B3 /* UIKit.framework */,
 				115ED2361782E6A900AD99B3 /* Foundation.framework */,
 				115ED2381782E6A900AD99B3 /* CoreGraphics.framework */,
@@ -99,6 +127,8 @@
 		115ED23A1782E6A900AD99B3 /* Sumati */ = {
 			isa = PBXGroup;
 			children = (
+				1117D0D1178DBB330085CCFD /* Model */,
+				1117D0CB178DB6C60085CCFD /* Singleton */,
 				115ED2571782E72900AD99B3 /* Application */,
 				115ED2631782E72900AD99B3 /* ViewControllers */,
 				115ED25A1782E72900AD99B3 /* Images */,
@@ -256,6 +286,8 @@
 				115ED2831782EA6300AD99B3 /* SettingsViewController.m in Sources */,
 				11463A25178C2764004C9213 /* DetailViewController.m in Sources */,
 				11463A28178C28E1004C9213 /* PadyaController.m in Sources */,
+				1117D0CE178DB6D90085CCFD /* DBManager.m in Sources */,
+				1117D0D4178DBB430085CCFD /* Padyam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

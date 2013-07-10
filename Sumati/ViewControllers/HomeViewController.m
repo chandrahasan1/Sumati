@@ -7,6 +7,8 @@
 //
 
 #import "HomeViewController.h"
+#import "DBManager.h"
+#import "Padyam.h"
 
 @interface HomeViewController ()
 
@@ -32,6 +34,13 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    mPadyasArray = [NSMutableArray array];
+    
+    NSArray *array = [[DBManager sharedInstance] getAllPadyas];
+    [mPadyasArray addObjectsFromArray:array];
+    
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,7 +60,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 10;
+    return mPadyasArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -60,7 +69,9 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    
+    Padyam *padya = (Padyam *)[mPadyasArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = padya.title;
+
     return cell;
 }
 
